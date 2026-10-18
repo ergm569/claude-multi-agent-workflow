@@ -1,0 +1,17 @@
+{
+  "description": "Lint every JavaScript file right after Claude writes or edits it.",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/lint-edited.js\"",
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  }
+}
