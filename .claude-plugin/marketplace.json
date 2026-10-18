@@ -1,0 +1,17 @@
+{
+  "name": "code-qa-marketplace",
+  "owner": {
+    "name": "ergm569"
+  },
+  "metadata": {
+    "description": "Marketplace for code-qa, a multi-agent code quality plugin for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "code-qa",
+      "source": "./",
+      "description": "Code quality kit: review changes, write the missing tests and lint after every edit.",
+      "version": "0.1.0"
+    }
+  ]
+}

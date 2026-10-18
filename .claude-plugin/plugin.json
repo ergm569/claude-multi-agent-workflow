@@ -1,0 +1,8 @@
+{
+  "name": "code-qa",
+  "version": "0.1.0",
+  "description": "Code quality kit: review changes, write the missing tests and lint after every edit.",
+  "author": {
+    "name": "ergm569"
+  }
+}
